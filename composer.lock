@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "88970a0117c062eed55fa8728fc43833",
+    "content-hash": "4bff9cd3e657594b109278b7ec7fba04",
     "packages": [
         {
             "name": "brick/math",
@@ -5973,6 +5973,47 @@
             "time": "2020-07-09T08:09:16+00:00"
         },
         {
+            "name": "iroid/laravel-haversine",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/salman1802/laravel-haversine.git",
+                "reference": "0321c630695f16724112c315025f992c0a1c9cc5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/salman1802/laravel-haversine/zipball/0321c630695f16724112c315025f992c0a1c9cc5",
+                "reference": "0321c630695f16724112c315025f992c0a1c9cc5",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.4"
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Iroid\\LaravelHaversine\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Salman Ansari",
+                    "email": "salman.ansari.1253218@email.com"
+                }
+            ],
+            "description": "Laravel package for calculating distances using the Haversine formula",
+            "support": {
+                "issues": "https://github.com/salman1802/laravel-haversine/issues",
+                "source": "https://github.com/salman1802/laravel-haversine/tree/main"
+            },
+            "time": "2024-02-23T05:28:23+00:00"
+        },
+        {
             "name": "laravel/pail",
             "version": "v1.2.2",
             "source": {
@@ -8066,7 +8107,9 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {},
+    "stability-flags": {
+        "iroid/laravel-haversine": 20
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
